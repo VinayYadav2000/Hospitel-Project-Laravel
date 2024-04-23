@@ -1,0 +1,793 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .imagesh{
+    height: 100px;
+    width: 100px;
+} */
+.imagesh img {
+  height: 100%;
+  width: 100%;
+}
+
+.hero {
+  height: 500px;
+  width: 100%;
+  background-image: url(../images/pharma-company-template-hero-bg.svg);
+}
+
+.heading {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: column;
+  margin: 60px 0px;
+}
+
+.heading h1 {
+  font-size: 55px;
+}
+
+.heading p {
+  font-size: 17px;
+  padding: 15px 0px;
+}
+
+.heading a {
+  font-size: 14px;
+  padding: 10px 35px;
+  border: 2px solid #004942;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #004943;
+}
+
+.medical {
+  min-height: 400px;
+  width: 100%;
+  background-color: #004943;
+}
+
+.medical-heading {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+
+}
+
+.medical-heading h1 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.medical-heading p {
+  font-weight: 400;
+}
+
+.medical-logo {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.circel {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: blue;
+
+}
+
+.circel img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.cerkil-heading h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(246, 246, 247);
+}
+
+.cerkil-heading a {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #f0c96d;
+  border-radius: 20px;
+  color: aliceblue;
+}
+
+.cerkil-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.images img {
+  height: 100%;
+  width: 100%;
+}
+
+.new-offer {
+  min-height: 400px;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.new-offer-heading {
+  height: 150px;
+  width: 100%;
+  text-align: center;
+}
+
+.new-offer-card {
+  min-height: 400px;
+  width: 50%;
+  margin: auto;
+}
+
+.card-img-top {
+  height: 140px;
+  width: 150px;
+  border: 2px solid red;
+  background-color: #f0c96d;
+  border-radius: 50%;
+}
+
+.card-imagess {
+  height: 150px;
+  width: 150px;
+
+  display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.card-link{
+    text-decoration: none;
+    color: #151414;
+    font-weight: 600;
+}
+.testmonial{
+   min-height: 400px;
+    width: 100%;
+}
+/* testmoniyal css start */
+  body {
+    background: aliceblue;
+  }
+
+  .gtco-testimonials {
+    position: relative;
+    margin-top: 30px;
+
+    h2 {
+      font-size: 30px;
+      text-align: center;
+      color: #333333;
+      margin-bottom: 50px;
+    }
+
+    .owl-stage-outer {
+      padding: 30px 0;
+    }
+
+    .owl-nav {
+      display: none;
+    }
+
+    .owl-dots {
+      text-align: center;
+
+      span {
+        position: relative;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        display: block;
+        background: #fff;
+        border: 2px solid #01b0f8;
+        margin: 0 5px;
+      }
+
+      .active {
+        box-shadow: none;
+
+        span {
+          background: #01b0f8;
+          box-shadow: none;
+          height: 12px;
+          width: 12px;
+          margin-bottom: -1px;
+        }
+      }
+    }
+
+    .card {
+      background: #fff;
+      box-shadow: 0 8px 30px -7px #c9dff0;
+      margin: 0 20px;
+      padding: 0 10px;
+      border-radius: 20px;
+      border: 0;
+
+      .card-img-top {
+        max-width: 100px;
+        border-radius: 50%;
+        margin: 15px auto 0;
+        box-shadow: 0 8px 20px -4px #95abbb;
+        width: 100px;
+        height: 100px;
+      }
+
+      h5 {
+        color: #01b0f8;
+        font-size: 21px;
+        line-height: 1.3;
+
+        span {
+          font-size: 18px;
+          color: #666666;
+        }
+      }
+
+      p {
+        font-size: 18px;
+        color: #555;
+        padding-bottom: 15px;
+      }
+    }
+
+    .active {
+      opacity: 0.5;
+      transition: all 0.3s;
+    }
+
+    .center {
+      opacity: 1;
+
+      h5 {
+        font-size: 24px;
+
+        span {
+          font-size: 20px;
+        }
+      }
+
+      .card-img-top {
+        max-width: 100%;
+        height: 120px;
+        width: 120px;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .gtco-testimonials {
+      margin-top: 20px;
+    }
+  }
+
+  .owl-carousel {
+    .owl-nav button {
+
+      &.owl-next,
+      &.owl-prev {
+        outline: 0;
+      }
+    }
+
+    button.owl-dot {
+      outline: 0;
+    }
+  }
+
+  /* testmoniyal css end */
+
+  /* brand css start */
+  .Our-brand {
+    min-height: 300px;
+    width: 100%;
+    background-color: whitesmoke;
+  }
+
+  .bran-heading {
+    height: 100px;
+    width: 100%;
+  }
+
+  .bran-heading {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brand-images {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* brand css end */
+  .book-journey {
+    min-height: 400px;
+    width: 100%;
+    background-image: url(../images/gq.svg);
+    background-size: cover;
+    background-color: #004943;
+    color: #fff;
+    filter: opacity(1);
+  }
+
+  .book-journey-box {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .book-journey-box a {
+    text-decoration: none;
+    color: #555;
+    border-radius: 20px;
+    border: 2px solid aqua;
+    padding: 10px 30px;
+    color: #fff;
+  }
+
+  /* brand css end */ 
+
+  /* about page css start */
+  .about-hero{
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/gq.svg);
+    background-size: cover;
+   object-fit: cover;
+   background-position: center;
+}
+.about-hero-heading{
+    height: 500px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items:start;
+    justify-content:end;
+    flex-direction: column;
+}
+.about-hero-heading h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+.about-hero-heading p{
+  font-weight: 500;
+  font-size: 15px;
+}
+.about-hero-images{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center; 
+}
+.about-admin{
+  min-height: 500px;
+  width: 100%;
+  background-color: #004943;
+}
+.about-admin-up{
+  height: 100px;
+  width: 100%;
+}
+.about-admin-mid{
+  height: 250px;
+  width: 100%;
+  color: aliceblue;
+  font-weight: 500;
+}
+.about-admin-end{
+  height: 300px;
+  width: 50%;
+  margin: auto;
+}
+ /* about page css end */
+ /* contuct page css end */
+ /* * {
+  margin: 0px auto;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}  */
+
+ .form-section{
+  height: 600px;
+  width: 100%;
+  background-image: url(../images/gyy.webp);
+  /* background-color: #DDE5E8; */
+}
+.cont_principal {
+  position: absolute;
+  width: 85%;
+  height: 100%;
+/* Rectangle 3: */
+/* background-image: linear-gradient(-87deg, #F2F5F6 0%, #DDE5E8 100%); */
+}
+
+.cont_centrar {
+  position: absolute;
+  width: 320px;
+  left:50%;
+  top:50%;
+  margin-left: -160px;
+  margin-top: -160px;
+}
+
+.cont_centrar {
+  position: relative;
+  width: 320px;
+  float: left;
+  opacity: .8;
+  background-image: linear-gradient(-226deg, #FFFFFF 8%, #EEF3F5 100%);
+
+  border-radius: 8px;
+transition: all 0.5s;
+}
+
+.cent_active {
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.21);
+}
+
+
+.cont_tabs_login {
+position: relative;
+  float: left;
+  width: 100%;
+}
+
+.ul_tabs > li { 
+position: relative;
+  float: left;
+  width: 50%;
+  list-style: none;
+  text-align: center;
+
+}
+
+.ul_tabs > li > a  {  
+text-decoration: none;
+font-family: Helvetica;
+font-size: 16px;
+    color: #999;
+line-height: 14px;
+padding: 20px ;
+display: block;
+transition: all 0.5s;
+}
+
+  .ul_tabs > .active > a  {  
+color: #FF8383;
+
+}
+
+.linea_bajo_nom {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #999;
+  height: 2px;
+}
+
+.active .linea_bajo_nom {
+  position: relative;
+  width: 100%;
+  float: left;
+background-color: #FF8383;
+height: 2px;
+}
+
+.cont_text_inputs {
+position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input_form_sign {
+  position: relative;
+  float: left;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #B0BEC5 ;
+  background-color: transparent;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.5s;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;  
+opacity: 0;
+display: none;
+}
+
+.active_inp {
+  margin: 5% 5% ;  
+  padding: 10px 0px;
+  opacity: 1;
+height: 5px;
+}
+
+
+
+.input_form_sign:focus {
+  border-bottom: 1px solid #FF8383 ;}
+
+.link_forgot_pass {
+position: relative;
+  margin-top: 0px;
+  margin-left: 30%;
+  text-decoration: none;
+  color: #999;
+  font-size: 13px;
+  display: none;
+  float: left;
+  transition: all 0.5s;
+}
+.cont_btn {
+  position: relative;
+  float: left;
+}
+
+.btn_sign {
+  background: rgba(255,64,88,0.74);
+  box-shadow: 0px 2px 20px 2px rgba(255,114,132,0.50);
+  border-radius: 8px;
+  padding: 15px 30px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  position: relative;  
+  float: left;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.terms_and_cons {
+  width: 70%;  
+  color: #999;
+  font-size: 13px;
+  transition: all 0.5s;
+}
+
+.d_none {
+  display: none;
+}
+
+.d_block {
+  display: block;
+}
+
+.cont_text_inputs > input:nth-child(1){
+  transition-delay: 0.2s;
+}
+
+.cont_text_inputs > input:nth-child(2){
+  transition-delay: 0.4s;
+}
+.cont_text_inputs > input:nth-child(3){
+  transition-delay: 0.6s;
+}
+.cont_text_inputs > input:nth-child(4){
+  transition-delay: 0.8s;
+}
+textarea{
+  margin: 0px 40px;
+
+} 
+ 
+ /* contuct page css end */
+ /* medicalsection css start */
+ .about-hero{
+  height: 400px;
+  width: 100%;
+  background-image: url(../images/pharma-company-template-hero-bg.svg);
+  background-size: cover;
+}
+.about-hero-heading{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items:start;
+  justify-content:center;
+  flex-direction: column;
+}
+.about-hero-heading h4{
+  font-weight: 800;
+}
+.about-hero-images{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content:center; 
+}
+.medical{
+  min-height: 400px;
+  width: 100%;
+  background-image: url(../images/pharma.svg);
+}
+.medical-heading-up{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content:center;
+  flex-direction: column;
+}
+.medical-heading-up h3{
+  font-weight: 800;
+}
+.medical-heading-down{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content:center;
+  flex-direction: column;
+}
+.medical-heading-down h3{
+  font-weight: 900;
+}
+.feq{
+  min-height: 400px;
+  width: 100%;
+}
+.feq-heading{
+  height: 70px;
+  width: 100%;
+}
+.feq-acurden{
+  height: 300px;
+  width: 100%;
+  display: flex; 
+align-items: center; 
+justify-content: start; 
+}
+/* //////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');  
+
+.accordion{ 
+max-width: 33rem; 
+width: 100%; 
+background: #FFF; 
+margin:0 1rem; 
+padding: 1rem; 
+border-radius: 0.5rem; 
+box-shadow: 0 0 5px rgba(0,0,0,0.2); 
+} 
+.accordion .accordion-content{ 
+margin:10px 0; 
+border-radius: 5px; 
+background-color: #e8ffdc; 
+border-color: #bbffaa; 
+overflow: hidden; 
+} 
+
+.accordion-content.is-open{ 
+padding-bottom: 10px; 
+} 
+.accordion-content header{ 
+display:flex; 
+min-height: 50px; 
+padding: 0 15px; 
+cursor: pointer; 
+align-items: center; 
+justify-content: space-between; 
+transition:all 0.2s linear; 
+} 
+.accordion-content.is-open header{ 
+min-height: 35px; 
+} 
+.accordion-content-title{ 
+font-size: 1rem; 
+font-weight: 600; 
+color:#000000; 
+} 
+.accordion-content-description{ 
+height:0; 
+font-size: 13px; 
+color:#000000; 
+font-weight: 400; 
+padding: 0 15px; 
+}
+
+ /* medicalsection css end */
+
+ /* lab css start */
+ .about-hero{
+  min-height: 400px;
+  width: 100%;
+  background-image: url(../images/pharma-company-template-hero-bg.svg);
+  background-size: cover;
+}
+.about-hero-heading{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items:start;
+  justify-content:center;
+  flex-direction: column;
+}
+.about-hero-heading h4{
+  font-weight: 800;
+}
+.about-hero-images{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content:center; 
+}
+.lab-test{
+    min-height: 300px;
+    width: 95%;
+    margin: auto;
+  }
+  .lab-test-up{
+    height: 20px;
+    width: 90%;
+    margin: auto;
+  }
+  .lab-test-up p{
+    font-weight: 700;
+    color: aquamarine;
+  }
+  .lab-work{
+    min-height: 400px;
+    width: 97%;
+    margin: auto;
+    background-image: url(../images/pharma.svg);
+  }
+  .lab-work-image{
+    min-height: 200px;
+    width: 100%;
+  }
+  .lab-work-heading{
+    height: 500px;
+    width: 100%;
+    
+  }
+  .lab-work-heading-up{
+    min-height: 280px;
+    width: 100%;
+    
+  }
+  .lab-work-heading-mid{
+    min-height: 280px;
+    width: 100%;
+  }
+  .lab-work-heading-down{
+    min-height: 280px;
+    width: 100%;
+  }
+ /* lab css end */
